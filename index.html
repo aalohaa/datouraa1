@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datouraa</title>
+  <link rel="shortcut icon" href="images/g-8.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- header section -->
+  <header>
+
+    <div class="fas fa-bars" id="menu-bar"></div>
+
+
+    <a href="index.html" class="logo"><span>D</span>atouraa</a>
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#book">Book</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="slider-container">
+      <label for="text-slider">
+        <p>Adjust Text Size:</p>
+      </label>
+      <input type="range" id="text-slider" min="50" max="200" step="1" value="100">
+    </div>
+
+    <div class="icons">
+      <i class="fas fa-search" id="search-btn"></i>
+      <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="Search here..">
+      <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+
+  </header>
+
+  <!-- login form container -->
+
+  <div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+      <p>Login? <a href="login.html">Click here</a></p>
+      <p>Forget password? <a href="forget.html">Click here</a></p>
+      <p>Don`t have an account? <a href="signup.html">Register now</a></p>
+    </form>
+
+  </div>
+
+
+  <!-- home section -->
+
+  <section class="home" id="home">
+
+    <div class="content">
+      <h3>Adventure in worthwhile</h3>
+      <p>Discover new places, adventure awaits</p>
+      <a href="#" class="btn">Discover more</a>
+    </div>
+
+    <div class="controls">
+      <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+      <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+      <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+      <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+      <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+      <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+  </section>
+
+  <!-- book section -->
+
+  <section class="book" id="book">
+
+    <h1 class="heading">
+      <span>B</span>
+      <span>O</span>
+      <span>O</span>
+      <span>K</span>
+      <span class="space"></span>
+      <span>N</span>
+      <span>O</span>
+      <span>W</span>
+    </h1>
+
+    <div class="row">
+
+      <div class="image">
+        <img src="images/book-img.svg" alt="booking logo">
+      </div>
+
+      <form action="">
+
+        <div class="inputBox">
+          <h3>Where to</h3>
+          <input type="text" placeholder="Place name">
+        </div>
+
+        <div class="inputBox">
+          <h3>How many</h3>
+          <input type="number" placeholder="Number of guests">
+        </div>
+
+        <div class="inputBox">
+          <h3>Arrivals</h3>
+          <input type="date">
+        </div>
+
+        <div class="inputBox">
+          <h3>Leaving</h3>
+          <input type="date">
+        </div>
+        <input type="submit" class="btn" value="Book now">
+
+      </form>
+    </div>
+  </section>
+
+
+  <!-- serices section -->
+  <section class="services" id="services">
+
+    <h1 class="heading">
+      <span>S</span>
+      <span>E</span>
+      <span>R</span>
+      <span>V</span>
+      <span>I</span>
+      <span>C</span>
+      <span>E</span>
+      <span>S</span>
+    </h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>Affordable hotels</h3>
+        <p>Coming to the Republic of Kazakhstan, you can not be afraid to be homeless. Even the most fastidious guest of
+          this hospitable region will always have a large selection of places to stay. There are enough hotels in
+          Kazakhstan for any guest. The Republic of Kazakhstan will pleasantly surprise you with an abundance of luxury
+          hotels.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>Food and drinks</h3>
+        <p>The cities of Kazakhstan are rich in establishments of different price categories, from expensive steakhouses
+          to small inexpensive pastry shops. Every resident of Kazakhstan or guest will be able to choose something to
+          their liking.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Safety guide</h3>
+        <p>Kazakhstan is a huge country the size of Western Europe, so to understand how to get there, you first need to
+          decide which point you will go to. There are 16 international airports in Kazakhstan, the most important of
+          them are Nursultan Nazarbayev (TSE) and Almaty (ALA). How to get to them is described in detail in the guides
+          for Nursultan and Almaty.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>Around the Kazakhstan</h3>
+        <p>For navigation and walking around the city in Kazakhstan, the 2GIS application is used. In almost every city,
+          you can move around using these maps.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>Fastest travel</h3>
+        <p>You can travel around Kazakhstan by buses, trains and planes. The flight from Astana to Almaty will take one
+          hour and 40 minutes and will cost an average of 15.5 thousand tenge. .</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>Adventures</h3>
+        <p>A trip to Kazakhstan is a real adventure full of amazing natural landscapes, the hospitality of local
+          residents and the variety of tastes of national cuisine. This country, located at the junction of Europe and
+          Asia, has absorbed the trends of a variety of cultural and religious trends.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!--GALLERY SECTION-->
+  <section class="gallery" id="gallery">
+    
+    <h1 class="heading">
+      <span>G</span>
+      <span>A</span>
+      <span>L</span>
+      <span>L</span>
+      <span>E</span>
+      <span>R</span>
+      <span>Y</span>
+    </h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="images/g-1.jpg" alt="Bayterek and beautiful picture of the capital of Kazakhstan">
+        <div class="content">
+          <h3>Amazing places</h3>
+          <p>Baiterek is a unique in design, majestic monument, considered the hallmark of the modern capital of
+            Kazakhstan. Every day a lot of tourists come to the huge monument..</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/g-2.jpg" alt="Mountain lakes">
+        <div class="content">
+          <h3>Beatiful lakes</h3>
+          <p>On the territory of Kazakhstan, mountain lakes are located mainly in the south-eastern mountainous regions.
+            They are the most attractive, but inaccessible mountain lakes in the south of Kazakhstan..</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/g-3.jpg" alt="The largest mountain systems in the world Altai and Tien Shan.">
+        <div class="content">
+          <h3>Mountain system</h3>
+          <p>The vast territory of Kazakhstan borders with many regions of Central Asia, in the southeast and northeast
+            Kazakhstan is surrounded by one of the largest mountain systems in the world Altai and Tien Shan.</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/g-4.jpg" alt="The largest mountain systems in the world Altai and Tien Shan.">
+        <div class="content">
+          <h3>Mountain system</h3>
+          <p>The vast territory of Kazakhstan borders with many regions of Central Asia, in the southeast and northeast
+            Kazakhstan is surrounded by one of the largest mountain systems in the world Altai and Tien Shan.</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/g-5.jpg" alt="Large cities">
+        <div class="content">
+          <h3>Large cities</h3>
+          <p>In large cities of the country, there are more and more multi-storey buildings that make their appearance
+            modern and convenient for people.</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/g-6.jpg" alt="The largest mountain systems in the world Altai and Tien Shan.">
+        <div class="content">
+          <h3>Mountain system</h3>
+          <p>The vast territory of Kazakhstan borders with many regions of Central Asia, in the southeast and northeast
+            Kazakhstan is surrounded by one of the largest mountain systems in the world Altai and Tien Shan.</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/g-7.jpg" alt="Beautiful and large mosques built in the country.">
+        <div class="content">
+          <h3>Mosques</h3>
+          <p>There are also quite beautiful and large mosques built in the country.</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/g-8.jpg" alt="Lowlands, plains and mountains meet here">
+        <div class="content">
+          <h3>Plains</h3>
+          <p>Kazakhstan is famous for its diverse terrain. Lowlands, plains and mountains meet here. Not only the
+            high-altitude areas, but also the low mountains of Kazakhstan are popular with tourists.</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/g-9.jpg" alt="The largest mountain systems in the world Altai and Tien Shan.">
+        <div class="content">
+          <h3>Mountain system</h3>
+          <p>The vast territory of Kazakhstan borders with many regions of Central Asia, in the southeast and northeast
+            Kazakhstan is surrounded by one of the largest mountain systems in the world Altai and Tien Shan.</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- contact section -->
+  <section class="contact" id="contact">
+
+    <h1 class="heading">
+      <span>C</span>
+      <span>O</span>
+      <span>N</span>
+      <span>T</span>
+      <span>A</span>
+      <span>C</span>
+      <span>T</span>
+    </h1>
+
+    <div class="row">
+
+      <div class="image">
+        <img src="images/contact-img.svg" alt="Email picture">
+      </div>
+
+      <div class="form">
+        <div class="inputBox">
+          <input type="text" id="fullName" placeholder="Full Name">
+          <input type="email" id="email_id" placeholder="Email">
+        </div>
+
+        <div class="inputBox">
+          <input type="number" id="phone" placeholder="Phone number">
+          <input type="text" id="subject" placeholder="Subject">
+        </div>
+        <textarea placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
+        <button class="btn" onclick="SendEmail()">Send Message</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- footer section -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="box">
+        <h3>Follow</h3>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.linkedin.com/">Linkedin</a>
+        <a href="https://web.telegram.org/">Telegram</a>
+        <a href="https://www.facebook.com/">Facebook</a>
+      </div>
+
+    </div>
+
+    <h1 class="credit">Created by <span>Khusainov Alizhan</span> | All rights reserved.</h1>
+
+  </section>
+
+
+
+  <script src="js/script.js"></script>
+  <script src="js/singleton.js"></script>
+  <script src="js/contact.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("4qaJCij28w8l4GwF3");
+    })();
+
+    const textSlider = document.getElementById('text-slider');
+const textElements = document.querySelectorAll('.content, h1, h2, h3, p, a, button');
+
+
+textSlider.addEventListener('input', () => {
+  const textSize = textSlider.value + '%';
+
+  // change size of text
+  textElements.forEach(element => {
+    element.style.fontSize = textSize;
+  });
+});
+
+
+// focus element
+const focusableElements = document.querySelectorAll('a, button, input, textarea, select');
+
+focusableElements.forEach(element => {
+  element.addEventListener('focus', () => {
+    element.classList.add('focused');
+  });
+
+  element.addEventListener('blur', () => {
+    element.classList.remove('focused');
+  });
+});
+
+// Shift + Tab
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Tab') {
+    if (event.shiftKey) {
+      const currentIndex = Array.from(focusableElements).indexOf(document.activeElement);
+      const newIndex = (currentIndex - 1 + focusableElements.length) % focusableElements.length;
+      focusableElements[newIndex].focus();
+      event.preventDefault();
+    }
+  }
+});
+
+
+
+  </script>
+</body>
+
+</html>
